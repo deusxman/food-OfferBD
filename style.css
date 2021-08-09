@@ -1,0 +1,35 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+.brand-name{
+    color: orangered;
+}
+.color-green{
+    background-color: palegreen;
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 100%;
+    padding-left: 3%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(tomato, orangered);
+    font-weight: 700;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+.back-image{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+}
