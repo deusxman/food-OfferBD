@@ -8,10 +8,13 @@ h1{
 .brand-name{
     color: orangered;
 }
-.color-green{
-    background-color: palegreen;
+.color-gray{
+    color: gray;
 }
-section{
+.color-black{
+    background-color: black;
+}
+.flex-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -20,7 +23,8 @@ section{
     padding-left: 3%;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
+    
 }
 .link-button{
     text-decoration: none;
@@ -32,4 +36,27 @@ section{
 }
 .back-image{
     background-image: url(images/shapes/Frame\ 58.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.service-item{
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.subscriber{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.middle-content{
+    padding-left: 40%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-right: 10px;
 }
