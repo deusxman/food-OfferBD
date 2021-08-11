@@ -28,11 +28,11 @@ h1{
 }
 .link-button{
     text-decoration: none;
-    background-image:linear-gradient(tomato, orangered);
+    background-image:linear-gradient(rgb(253, 117, 92), orangered);
     font-weight: 700;
-    padding: 10px 20px;
+    padding: 12px 20px;
     color: white;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .back-image{
     background-image: url(images/shapes/Frame\ 58.jpg);
